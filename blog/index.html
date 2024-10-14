@@ -1,111 +1,54 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/IMG_9455-modified.png">
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/IMG_9455-modified.png" type="image/png">
-    <link rel="apple-touch-icon" sizes="256x256" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/IMG_9455-modified.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/180.png">
-    <link rel="apple-touch-icon" sizes="32x32" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/32.png">
-    <link rel="apple-touch-icon" sizes="16x16" href="https://raw.githubusercontent.com/siawaseok3/yuki-bbs-siawaseok/main/views/16.png">
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proxyの歴史</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: black; 
-        }
-        header {
-            background-color: black; 
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
-        nav {
-            background: #ffeb3b; 
-            color: black;
-            padding: 1em;
-            text-align: center;
-        }
-        nav a {
-            color: black;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        main {
-            padding: 20px;
-        }
-        .topic {
-            background: black;
-            margin: 20px 0;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background: black;
-            color: white;
-            text-align: center;
-            padding: 0.5em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .cookie-notice {
-            position: fixed;
-            bottom: 0;
-            background: #ffeb3b;
-            color: black;
-            width: 100%;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>ブロック解除の歴史！</h1>
-</header>
-
-<nav>
-    <a href="#deploy時代">deploy時代</a>
-    <a href="#ddns時代">ddns時代</a>
-</nav>
-
-<main>
-    <section id="deploy時代" class="topic">
-        <h2>deploy時代</h2>
-        <p>siawaseokさんが有名になった時代です。このころはnightくらいしか作れませんでした。</p>
-        <p>そのあとにyuki youtubeをsiawaseokさんが作るようになっていきました。</p>
-        <p>そしてしばらくたった時、siawaseokさんはddnsでshadow browserなどが作れることが発見されました。</p>
-        <h4>interstellarをvercelで作る方法が発見され、siawaseokさんが作れないプロキシはほぼなくなったといえます。</h4>
-        <p>このころからvercelやkoyebでgithubのrepositoryをひもづけることでプロキシが作れることが発見されました。</p>
-    </section>
-
-    <section id="ddns時代" class="topic">
-        <h2>kara_seee</h2>
-        <p>kara_seeeはリンクを１回開いてからプロキシを作る方法でdogeやabyss,artclassなどブロックされるものの解除に成功しました。</p>
-        <h3>konnnnitiha84238</h3>
-        <p>konnnnitiha84238さんはdvrlist,ipv64.de,wan64.de,laviewdns.comなどのdnsサイトでshadowなどが作れることを発見しました。</p>
-        <p>それからしばらくたちnyanko_aさんのサイト集や、kara_seeeさんのサイト集ができてきます。</p>
-        <h3>解説終わります</h3>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2024 proxyの歴史 | repository by siawaseok</p>
-</footer>
-
-<!-- Cookieの承認 -->
-<div id="cookie-notice" class="cookie-notice">
-    当サイトではクッキーを使用しています。<br>
-    <button id="accept-btn">承認</button>
-    <button id="reject-btn">拒否</button>
-</div>
-<script src="script.js"></script>
-</body>
-</html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black; 
+    }
+    header {
+        background-color: black; 
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+    nav {
+        background: #ffeb3b; 
+        color: white; /* 文字色を白に変更 */
+        padding: 1em;
+        text-align: center;
+    }
+    nav a {
+        color: white; /* リンクの文字色を白に変更 */
+        margin: 0 15px;
+        text-decoration: none;
+    }
+    main {
+        padding: 20px;
+    }
+    .topic {
+        background: black;
+        margin: 20px 0;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: white; /* トピックの文字色を白に変更 */
+    }
+    footer {
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 0.5em 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    .cookie-notice {
+        position: fixed;
+        bottom: 0;
+        background: #ffeb3b;
+        color: black;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
