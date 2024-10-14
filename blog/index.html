@@ -1,54 +1,107 @@
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: black; 
-    }
-    header {
-        background-color: black; 
-        color: white;
-        text-align: center;
-        padding: 1em 0;
-    }
-    nav {
-        background: #ffeb3b; 
-        color: white; /* 文字色を白に変更 */
-        padding: 1em;
-        text-align: center;
-    }
-    nav a {
-        color: white; /* リンクの文字色を白に変更 */
-        margin: 0 15px;
-        text-decoration: none;
-    }
-    main {
-        padding: 20px;
-    }
-    .topic {
-        background: black;
-        margin: 20px 0;
-        padding: 15px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        color: white; /* トピックの文字色を白に変更 */
-    }
-    footer {
-        background: black;
-        color: white;
-        text-align: center;
-        padding: 0.5em 0;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-    }
-    .cookie-notice {
-        position: fixed;
-        bottom: 0;
-        background: #ffeb3b;
-        color: black;
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karaseee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; 
+        }
+        header {
+            background-color: black; 
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background: #ffeb3b; 
+            color: black; /* 文字色を黒に変更 */
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: black; /* リンクの文字色を黒に変更 */
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .topic {
+            background: black;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white; /* トピックの文字色を白に変更 */
+        }
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 0.5em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .cookie-notice {
+            position: fixed;
+            bottom: 0;
+            background: #ffeb3b;
+            color: black;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+        button {
+            background-color: #4CAF50; /* 緑色 */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>https://writening.net/page?yPhu4C</h1>
+</header>
+
+<nav>
+    <a href="#home"></a>
+    <a href="#about"></a>
+    <a href="#contact"></a>
+</nav>
+
+<main>
+    <div class="topic">
+        <h2></h2>
+        <p></p>
+    </div>
+</main>
+
+<footer>
+    <p>karaseee</p>
+</footer>
+
+<!-- Cookieの承認 -->
+<div id="cookie-notice" class="cookie-notice">
+    当サイトではクッキーを使用しています。<br>
+    <button id="accept-btn" aria-label="クッキーを承認">承認</button>
+    <button id="reject-btn" aria-label="クッキーを拒否">拒否</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
