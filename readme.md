@@ -1,10 +1,10 @@
 <p>YUKI YOUTUBE MOD SIAWASEOK comit by karaseee</p>
-デプロイボタンは下
+デプロイボタンは下※vercelのみdeployボタンを押すと僕のレポジトリがデプロイされるようになっています（render,koyebはsiawaseokさんのものがデプロイされるようになっています）
 
 ## 使い方
 
-右下に出てくる「Cookieを承認しますか？」を承認してください<br>
-拒否を押した場合ページをリロードすると再度表示されます。<br>
+下にある承認を押してください<br>
+豆知識：ホーム画面を変更するにはtemplate,blogの中のindex.htmlをちょこっと変えれば変更できます<br>
 
 承認を押すと↓が実行されます。
 ```JavaScript
@@ -28,7 +28,7 @@ cookieにyuki=Trueを設定すると認証されます。
 <a href="https://render.com/deploy?repo=https://github.com/siawaseok3/slim-2-by-siawaseok.git">
  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"><br>
 </a>
-<a href="https://vercel.com/new/clone?repository-url=https://github.com/siawaseok3/slim-2-by-siawaseok.git">
+<a href="[https://vercel.com/new/clone?repository-url=https://github.com/siawaseok3/slim-2-by-siawaseok.git](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fchaos392%2Fslim-2-yuki-youtube-mod-siawaseok&showOptionalTeamCreation=false&teamSlug=ifs-projects-c04118c5)">
   <img src="https://vercel.com/button" alt="Deployto Vercel">
 </a>
 
